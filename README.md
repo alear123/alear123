@@ -48,12 +48,14 @@ Plataforma web para gestionar eventos de punta a punta: reservas de salones, con
 `Java` `Spring Boot` `Spring Data JPA` `Hibernate` `MySQL` `React` `Tailwind`
 
 ###  [pricing-service-py](https://github.com/alear123/pricing-service-py) — Arquitectura de Microservicios
-Microservicio de cupones de descuento que se integra al ecosistema e-commerce de la cátedra (servicios de Auth, Carrito, Catálogo y Órdenes en Go).
-- Registro de canjes **asíncrono con RabbitMQ (Pub/Sub)** para no bloquear el flujo de compra.
-- Acceso **asíncrono a MongoDB** con Motor y gestión del ciclo de vida de la conexión.
-- DTOs estrictos con **Pydantic v2**, configuración por variables de entorno y autenticación delegada al servicio de Auth con **JWT**.
+Microservicio de **precios y cupones de descuento** que se integra al ecosistema e-commerce de la cátedra (servicios de Auth, Carrito, Catálogo y Órdenes en Go).
+- Comunicación **asíncrona por eventos con RabbitMQ**: el uso del cupón se confirma al consumir el evento de orden creada, sin bloquear el flujo de compra.
+- **Reserva temporal de cupones** con índice TTL de MongoDB: las reservas abandonadas expiran solas a los 30 minutos.
+- Límite de usos garantizado con una **operación atómica en MongoDB**, sin condiciones de carrera entre órdenes simultáneas.
+- Stack 100% asíncrono (**Motor**, **aio-pika**, **httpx**), modelos con **Pydantic v2** y autenticación delegada al servicio de Auth con **JWT** y permisos por rol.
+- **37 tests** con pytest, **CI con GitHub Actions** y todo el ecosistema levantado con un solo **docker compose**.
 
-`Python` `FastAPI` `MongoDB` `RabbitMQ` `Pydantic` `Docker`
+`Python` `FastAPI` `MongoDB` `RabbitMQ` `Pydantic` `Docker` `GitHub Actions`
 
 ###  [Energy Demand Predictor](https://github.com/alear123/CCDD_Streamlit_G20) — Ciencia de Datos · [Demo](https://ccddappg20-cypow9vvrx6zvcadssbjmk.streamlit.app/)
 Predicción de la demanda energética horaria de Edenor, Edesur y Edelap a partir de datos de CAMMESA y variables climáticas de Open-Meteo.
