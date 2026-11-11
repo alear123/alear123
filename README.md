@@ -1,14 +1,14 @@
-# Hola, soy Alejandro Arce 👋
+# Hola, soy Alejandro Arce 
 
 **Ingeniero en Sistemas de Información (UTN-FRM)** · Desarrollador Backend Junior · Mendoza, Argentina
 
 Me enfoco en el desarrollo **backend** con **Java/Spring Boot** y **Python/FastAPI**: APIs REST, seguridad con JWT, persistencia relacional y NoSQL y procesamiento asíncrono con colas de mensajes. También trabajo con React del lado del frontend.
 
-📫 [LinkedIn](https://www.linkedin.com/in/alejandro-arce-448a29208) · alear12373@gmail.com
+ [LinkedIn](https://www.linkedin.com/in/alejandro-arce-448a29208) · alear12373@gmail.com
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 **Backend**
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
@@ -35,9 +35,9 @@ Me enfoco en el desarrollo **backend** con **Java/Spring Boot** y **Python/FastA
 
 ---
 
-## 🚀 Proyectos destacados
+##  Proyectos destacados
 
-### 🎉 Wevently — Proyecto Final de Carrera (aprobado)
+###  Wevently — Proyecto Final de Carrera (aprobado)
 **[Backend](https://github.com/alear123/wevently-backend) · [Frontend](https://github.com/alear123/wevently-frontend)**
 
 Plataforma web para gestionar eventos de punta a punta: reservas de salones, contratación de prestadores, presupuestos y pagos en línea, con perfiles para organizadores, propietarios, prestadores y administradores. Desarrollada en equipo con flujo Gitflow.
@@ -47,7 +47,7 @@ Plataforma web para gestionar eventos de punta a punta: reservas de salones, con
 
 `Java` `Spring Boot` `Spring Data JPA` `Hibernate` `MySQL` `React` `Tailwind`
 
-### 🎟️ [pricing-service-py](https://github.com/alear123/pricing-service-py) — Arquitectura de Microservicios
+###  [pricing-service-py](https://github.com/alear123/pricing-service-py) — Arquitectura de Microservicios
 Microservicio de cupones de descuento que se integra al ecosistema e-commerce de la cátedra (servicios de Auth, Carrito, Catálogo y Órdenes en Go).
 - Registro de canjes **asíncrono con RabbitMQ (Pub/Sub)** para no bloquear el flujo de compra.
 - Acceso **asíncrono a MongoDB** con Motor y gestión del ciclo de vida de la conexión.
@@ -55,7 +55,7 @@ Microservicio de cupones de descuento que se integra al ecosistema e-commerce de
 
 `Python` `FastAPI` `MongoDB` `RabbitMQ` `Pydantic` `Docker`
 
-### ⚡ [Energy Demand Predictor](https://github.com/alear123/CCDD_Streamlit_G20) — Ciencia de Datos · [Demo](https://ccddappg20-cypow9vvrx6zvcadssbjmk.streamlit.app/)
+###  [Energy Demand Predictor](https://github.com/alear123/CCDD_Streamlit_G20) — Ciencia de Datos · [Demo](https://ccddappg20-cypow9vvrx6zvcadssbjmk.streamlit.app/)
 Predicción de la demanda energética horaria de Edenor, Edesur y Edelap a partir de datos de CAMMESA y variables climáticas de Open-Meteo.
 - Pipeline ETL orquestado con **Apache Airflow**.
 - Comparación de modelos lineales y de ensamble con **GridSearchCV**, con **R² de 0,93 a 0,94** según la región.
@@ -63,7 +63,7 @@ Predicción de la demanda energética horaria de Edenor, Edesur y Edelap a parti
 
 `Python` `Scikit-Learn` `Pandas` `Airflow` `Streamlit`
 
-### 🔥 Plataforma de gestión de incendios forestales — PPS en IronFire
+###  Plataforma de gestión de incendios forestales — PPS en IronFire
 Desarrollé dos módulos dentro de una plataforma existente:
 - **Despacho de brigadas:** motor de sugerencias geográficas con la fórmula de **Haversine** para calcular distancias y ETA, con mapas interactivos en Leaflet.
 - **Análisis de datos con IA:** asistente que consulta la base mediante **Text-to-SQL** con un pipeline de dos pasos con LLM, aislamiento **multi-tenant** en cuatro capas y un validador de SQL con lista permitida de instrucciones.
@@ -72,5 +72,5 @@ Desarrollé dos módulos dentro de una plataforma existente:
 
 ---
 
-## 📚 Formación
+##  Formación
 **Ingeniería en Sistemas de Información** — UTN Facultad Regional Mendoza (2026)
